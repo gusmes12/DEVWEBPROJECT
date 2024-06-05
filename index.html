@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camping Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <?php include 'header.html'; ?>
+
+    <header class="header"> 
+        <div class="menu container"> 
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="menu"> 
+            <label for="menu">
+                <img src="" class="menu-icono" alt="Menú">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="products.html">Productos</a></li>
+                    <li><a href="cart.html">Carrito</a></li>
+                    <li><a href="#informacion">Información</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container"> 
+            <h1>Camping Store </h1>
+            <p>Nos alegra que hayas encontrado tu camino hasta aquí. En Campismo.com, compartimos tu pasión por la naturaleza y las aventuras. 
+                Nuestra tienda está dedicada a proporcionarte todo lo que necesitas para tu próxima excursión, campamento o expedición.</p>
+            <a href="#" class="btn-1">Información</a>
+        </div>
+    </header>
+
+    <section class="Carrusel">
+        <div class="slick-carousel">
+            <div><img src="img/hikin.jpg" alt=""></div>
+            <div><img src="img/hombreMochil.jpg" alt=""></div>
+            <div><img src="img/camp3.jpg" alt=""></div>
+            <!-- Agrega más imágenes según sea necesario -->
+        </div>
+    </section>
+
+    <section class="Campamento">
+        <div class="camp-content container">
+            <h2 id="informacion">¿Quiénes somos?</h2>
+            <p class="txt-p">Somos entusiastas del campismo, como tú. Sabemos lo importante que es contar con el equipo adecuado para disfrutar de cada momento al aire libre. Desde tiendas de campaña y sacos de dormir hasta mochilas y utensilios de cocina, 
+                hemos seleccionado cuidadosamente una amplia gama de productos de alta calidad para asegurarte una experiencia única y segura.</p>
+            <div class="Actividades-group">
+                <div class="Actividades-1">
+                    <img src="img/Senderismo.jpg" alt="">
+                    <h3>Senderismo</h3>
+                    <p>El senderismo es una actividad al aire libre que consiste en caminar por senderos y rutas naturales,
+                        generalmente en áreas montañosas o rurales. Promueve el ejercicio físico y la conexión con la naturaleza.</p>
+                </div>
+                <div class="Productos-1">
+                    <img src="img/campismo.jpg" alt="">
+                    <h3>Campismo</h3>
+                    <p>El campismo es una actividad recreativa que consiste en vivir temporalmente al aire libre, 
+                        generalmente en tiendas de campaña o vehículos adaptados, para disfrutar de la naturaleza.</p>
+                </div>
+            </div>
+            <a href="https://www.hobbyaficion.com/hobby/campismo/" class="btn-1">Más información</a>  
+        </div>
+    </section>
+
+    <section class="general">
+        <div class="general-1">
+            <h2>Misión</h2>
+            <p>Nuestra misión es equipar a los aventureros y amantes de la naturaleza con productos de alta calidad que les permitan explorar el mundo con confianza y comodidad.
+                Nos esforzamos por ofrecer un servicio excepcional y asesoramiento experto para que cada cliente pueda disfrutar plenamente de su experiencia al aire libre.</p>
+        </div>
+        <div class="general-1">
+            <h2>Visión</h2>
+            <p>Nuestra visión es ser la tienda de referencia para todos los entusiastas del campismo, promoviendo una conexión más profunda con la naturaleza y fomentando un estilo de vida activo y saludable. 
+                Aspiramos a crear una comunidad de aventureros que compartan nuestra pasión por el aire libre y el respeto por el medio ambiente.</p>
+            <a href="#" class="btn-1">Inicio</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container"> 
+            <div class="link">
+                <h3>Sobre nosotros</h3>
+                <ul>
+                    <li><a href="#">Responsabilidad social</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3 id="contacto">Ayuda</h3>
+                <ul>
+                    <li><a href="#">Información</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Servicio al cliente</h3>
+                <ul>
+                    <li><a href="#">Servicio al cliente</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2024 Camping Store</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
